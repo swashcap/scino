@@ -22,11 +22,11 @@
   "main": "index.js",
   "name": "scino",
   "repository": {
-  "scripts": {
-    "test": "standard && node test.js"
-  },
+    "scripts": {
+      "test": "standard && node test.js"
+    },
     "type": "git",
     "url": "git+https://github.com/swashcap/scino.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
