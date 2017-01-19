@@ -1,0 +1,32 @@
+{
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/MRN-Code/coinstac/issues"
+  },
+  "dependencies": {
+    "decimal.js": "^7.1.1"
+  },
+  "description": "Format numbers in scientific notation.",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "homepage": "https://github.com/MRN-Code/coinstac#readme",
+  "keywords": [
+    "scientific",
+    "notation",
+    "number",
+    "format"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "scino",
+  "repository": {
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+    "type": "git",
+    "url": "git+https://github.com/MRN-Code/coinstac.git"
+  },
+  "version": "1.0.0"
+}
