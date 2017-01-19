@@ -19,11 +19,19 @@ function scino (num, precision, options) {
     precision = undefined
   }
 
+  if (typeof num !== 'number') {
+    return num
+  }
+
   var parsed = parse(num, precision)
   var opts = getValidOptions(options)
   var coefficient = parsed.coefficient
   var exponent = parsed.exponent.toString()
   var superscriptExponent = ''
+
+  if (typeof coefficient === 'number' && isNaN(coefficient)) {
+    return num
+  }
 
   for (var i = 0; i < exponent.length; i++) {
     superscriptExponent += SUPERSCRIPTS[exponent[i]]

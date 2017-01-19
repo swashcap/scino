@@ -58,6 +58,12 @@ tape('formats numbers', function (t) {
     '<strong>-1.23456</strong> ✖︎ 10<span>³</span>',
     'custom options'
   )
+  t.equal(scino(0), 0, 'returns zero')
+  t.equal(
+    scino('not-a-number'),
+    'not-a-number',
+    'returns non-numeric values as-is'
+  )
   t.end()
 })
 
