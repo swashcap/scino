@@ -1,6 +1,6 @@
 # Scino
 
-_Format numbers in scientific notation._
+_Format numbers in scientific notation!_
 
 ## Installation
 
